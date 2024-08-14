@@ -1,0 +1,140 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border;
+  font-family:'Poppins',sans-serif;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+}
+
+
+nav{
+  width: 100%;
+  position: fixed;
+  background-color: rgb(21, 74, 74);
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 15%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav .logo{
+  width: 60px;
+  margin: 2vh;
+  margin-left: 8%;
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.navbar{
+  display: flex;
+  margin-right: 4vh;
+}
+
+.navbar a{
+  color: white;
+  font-size: 18px;
+  padding: 10px 22px;
+  border-radius: 4px;
+  font-weight: 500;   
+  text-decoration: none;
+  transition: ease 0.40s;
+}
+
+.navbar a:hover,.navbar a.active{
+  background: white;
+  color: black;
+  box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);
+  border-radius: 5px;
+  
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+}
+
+
+
+
+
+
+
+
+.register-body{
+  background-color: #101010;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.register{
+  padding: 110px 30%;
+  height: 100%;
+  min-height: 100vh;
+}
+
+.register-form h1{
+  font-size: 80px;
+  color: white;
+  margin-bottom: 20px;
+}
+.register-form h1{
+  color: #fc0050;
+}
+
+.register-form{
+  color: white;
+  font-size: 20px;
+}
+
+.register-form form input{
+  color: white;
+  padding: 17px;
+  background-color: #191919;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  
+}
+.register-form h4{
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 20px;
+  color: #fc0050;
+}
+
+
+.register-form form .submitbtn{
+  display: inline-block;
+  background-color: #fc0050;
+  font-size: 27px;
+  font-weight: 600px;
+  border: 2px solid transparent;
+  border-radius: 60px;
+  width: 220px;
+  cursor: pointer;
+  transition: ease 0.30s;
+}
+
+.register-form form .submitbtn:hover{
+  border: 2px solid #fc0050;
+  background-color: transparent;
+  transform: scale(1.1);
+}
+.form :where(.input-box input, .select-box){
+  position: relative;
+  height: 50px;
+  width: 100%;
+
+
+}
+
