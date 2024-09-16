@@ -43,16 +43,22 @@ To set up the project locally:
 HTML: For structure and content of the webpages.
 
 CSS : For styling and layout.
+
 PHP : For server-side scripting and form processing.
+
 JavaScript: For client-side form validation and interactive elements.
+
 MySQL: For database management and data storage.
 
 # Online Forms
 The website includes three forms for user interaction:
 
 Contact Form
+
 Booking Form
+
 Login Form
+
 Register Form
 
 # Contributors
