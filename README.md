@@ -25,7 +25,7 @@ The website aims to:
 
 ## Installation Instructions
 To set up the project locally:
-1. Clone the repository:
+1. Clone the repository: https://github.com/Sithija-Wijesinghe/Travel-Sri-Lanka-Website.git
 
 2. Install XAMPP or any other PHP & MySQL local server if not already installed.
 3. Move the project folder to the htdocs directory inside the XAMPP installation.
@@ -37,9 +37,6 @@ To set up the project locally:
   $username = "root";
   $password = "";
   $dbname = "travel";
-
-7. Open a browser and navigate to
-   http://localhost/Travel-Sri-Lanka-Website
 
 # Technologies Used
 
