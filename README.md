@@ -41,6 +41,7 @@ To set up the project locally:
 # Technologies Used
 
 HTML: For structure and content of the webpages.
+
 CSS : For styling and layout.
 PHP : For server-side scripting and form processing.
 JavaScript: For client-side form validation and interactive elements.
